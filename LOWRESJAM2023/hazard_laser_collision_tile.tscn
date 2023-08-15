@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://ctwnfaprh45go"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7cdvf"]
+size = Vector2(8, 6)
+
+[node name="HazardLaserCollisionTile" type="CollisionShape2D"]
+position = Vector2(4, 4)
+shape = SubResource("RectangleShape2D_7cdvf")

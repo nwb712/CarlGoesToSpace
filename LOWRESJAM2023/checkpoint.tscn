@@ -1,0 +1,82 @@
+[gd_scene load_steps=13 format=3 uid="uid://bnqg5mnex87tn"]
+
+[ext_resource type="Script" path="res://checkpoint.gd" id="1_wxm14"]
+[ext_resource type="Texture2D" uid="uid://0y5oyub0byob" path="res://assets/checkpoint-flag.png" id="2_vp0xf"]
+[ext_resource type="AudioStream" uid="uid://bxperxciego16" path="res://assets/audio/Retro Event UI 15.wav" id="3_k8imf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yvsgj"]
+atlas = ExtResource("2_vp0xf")
+region = Rect2(0, 0, 8, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ijtad"]
+atlas = ExtResource("2_vp0xf")
+region = Rect2(8, 0, 8, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0gsgt"]
+atlas = ExtResource("2_vp0xf")
+region = Rect2(16, 0, 8, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_avp4h"]
+atlas = ExtResource("2_vp0xf")
+region = Rect2(24, 0, 8, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lbfhf"]
+atlas = ExtResource("2_vp0xf")
+region = Rect2(32, 0, 8, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cwdvo"]
+atlas = ExtResource("2_vp0xf")
+region = Rect2(40, 0, 8, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_26r1s"]
+atlas = ExtResource("2_vp0xf")
+region = Rect2(48, 0, 8, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_h2ci7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yvsgj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ijtad")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0gsgt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_avp4h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lbfhf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cwdvo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_26r1s")
+}],
+"loop": false,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_30q0e"]
+size = Vector2(8, 16)
+
+[node name="Checkpoint" type="Area2D"]
+texture_filter = 1
+script = ExtResource("1_wxm14")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(4, 0)
+sprite_frames = SubResource("SpriteFrames_h2ci7")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(4, 0)
+shape = SubResource("RectangleShape2D_30q0e")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_k8imf")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

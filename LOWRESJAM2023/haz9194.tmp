@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://kpnhkekuhwau"]
+
+[ext_resource type="Script" path="res://hazard_laser.gd" id="1_nc5ur"]
+[ext_resource type="Texture2D" uid="uid://bcny3sb5r7hdm" path="res://assets/laser-emittter.png" id="2_3fbn1"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_swbqw"]
+size = Vector2(8, 8)
+
+[node name="HazardLaser" type="Area2D"]
+texture_filter = 1
+script = ExtResource("1_nc5ur")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(4, 4)
+shape = SubResource("RectangleShape2D_swbqw")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(4, 4)
+texture = ExtResource("2_3fbn1")

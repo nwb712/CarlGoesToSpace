@@ -1,0 +1,43 @@
+[gd_scene load_steps=7 format=3 uid="uid://cv24vjlw568c8"]
+
+[ext_resource type="Texture2D" uid="uid://oh17soru4mtw" path="res://assets/key-challenge-signs.png" id="1_lu53f"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8cwhe"]
+atlas = ExtResource("1_lu53f")
+region = Rect2(0, 0, 16, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3ing6"]
+atlas = ExtResource("1_lu53f")
+region = Rect2(16, 0, 16, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7xiea"]
+atlas = ExtResource("1_lu53f")
+region = Rect2(0, 8, 16, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sq4pa"]
+atlas = ExtResource("1_lu53f")
+region = Rect2(16, 8, 16, 8)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_512vm"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8cwhe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3ing6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7xiea")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sq4pa")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="KeyChallengeSign" type="AnimatedSprite2D"]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_512vm")

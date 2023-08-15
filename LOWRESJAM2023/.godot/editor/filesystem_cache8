@@ -1,0 +1,116 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1692066659
+animated_laser.tscn::PackedScene::7453010861365729839::1691641641::0::1::::<><>::uid://6ktuvaj13815
+bounce-pad.gd::GDScript::-1::1691787559::0::1::::<>Area2D<>::
+bounce_pad.tscn::PackedScene::8397507001027044679::1692049161::0::1::::<><>::res://bounce-pad.gd<>uid://c5dua2im4dd30
+checkpoint.gd::GDScript::-1::1692060291::0::1::::<>Area2D<>::
+checkpoint.tscn::PackedScene::3332324221402695371::1692065738::0::1::::<><>::res://checkpoint.gd<>uid://0y5oyub0byob::::res://assets/checkpoint-flag.png<>uid://bxperxciego16::::res://assets/audio/Retro Event UI 15.wav
+coin.gd::GDScript::-1::1691787559::0::1::::<>Area2D<>::
+coin.tscn::PackedScene::2298744752531255049::1692065738::0::1::::<><>::res://coin.gd<>uid://c8y7kfov5v2v3::::res://assets/coin.png<>uid://osi7scfl6jtn::::res://assets/coin-collect.png<>uid://us8ehupfnpdq::::res://assets/audio/Retro PickUp Coin 07.wav
+coin_challenge_sign.tscn::PackedScene::1897546690275762760::1691821390::0::1::::<><>::uid://bbrb0l4bwfo7g
+Cover.png::CompressedTexture2D::1710358799105082020::1692065862::1692066061::1::::<><>::
+elevator.gd::GDScript::-1::1691807547::0::1::::<>Node2D<>::
+elevator_path.tscn::PackedScene::7963022189719195857::1692049161::0::1::::<><>::uid://csmwylu5rmmjo
+elevator_path_follow.tscn::PackedScene::6062392328853288224::1692065738::0::1::::<><>::uid://l7joehy88igw::::res://assets/elevator-platform.png
+elevator_switch.gd::GDScript::-1::1692060497::0::1::::ElevatorSwitch<>Area2D<>::
+elevator_switch.tscn::PackedScene::2367420661352397212::1692065738::0::1::::<><>::res://elevator_switch.gd<>uid://xrgoa4bv8oqh::::res://assets/elevator-switch.png<>uid://bltagrhfv0qw3::::res://assets/audio/Retro Event StereoUP 02.wav
+event_manager.gd::GDScript::-1::1691716874::0::1::::<>Node2D<>::
+export_presets.cfg::TextFile::-1::1692065583::0::1::::<><>::
+game_manager.gd::GDScript::-1::1691806191::0::1::::<>Node<>::
+gate.gd::GDScript::-1::1691787559::0::1::::<>StaticBody2D<>::
+gate.tscn::PackedScene::1095431942797375082::1692065738::0::1::::<><>::res://gate.gd<>uid://c8k3ndpd8bdmq::::res://assets/gate.png
+gate_switch.gd::GDScript::-1::1691787559::0::1::::<>Area2D<>::
+gate_switch.tscn::PackedScene::6801954051216726744::1692065738::0::1::::<><>::res://gate_switch.gd<>uid://bjprjdrhhmce::::res://assets/switch.png<>uid://c6jxvb82rb0ai::::res://assets/audio/Retro Event Acute 11.wav
+goal.gd::GDScript::-1::1692059105::0::1::::<>Area2D<>::
+hazard.gd::GDScript::-1::1691787559::0::1::::Hazard<>Area2D<>::
+hazard.tscn::PackedScene::6201459147735087527::1691731725::0::1::::<><>::res://hazard.gd<>uid://d1iorw0ugm3e2
+hazard_laser.gd::GDScript::-1::1691787559::0::1::::<>Hazard<>::
+hazard_laser.tscn::PackedScene::733656456048619428::1692059258::0::1::::<><>::res://hazard_laser.gd<>uid://bcny3sb5r7hdm
+hazard_laser_collision_tile.tscn::PackedScene::6152643980928618506::1691641641::0::1::::<><>::
+icon.svg::CompressedTexture2D::8181163871474856525::1690926924::1690926929::1::::<><>::
+key.gd::GDScript::-1::1692065569::0::1::::<>Area2D<>::
+key.tscn::PackedScene::7923182767801479414::1692065738::0::1::::<><>::res://key.gd<>uid://eshucdjkhfhx::::res://assets/ui/ui-key.png<>uid://us8ehupfnpdq::::res://assets/audio/Retro PickUp Coin 07.wav
+key_challenge_sign.tscn::PackedScene::6304344068350652353::1692049161::0::1::::<><>::uid://oh17soru4mtw
+key_switch.gd::GDScript::-1::1691787559::0::1::::<>Area2D<>::
+key_switch.tscn::PackedScene::8800737542265914324::1691724548::0::1::::<><>::res://key_switch.gd<>uid://df4r2wgujgdtq
+menu.gd::GDScript::-1::1692065071::0::1::::<>Node2D<>::
+menu.tscn::PackedScene::2394396948338929887::1692065738::0::1::::<><>::res://menu.gd<>uid://dtjx0csuu7enb::::res://assets/ui/menu-background-1-one-pane.png<>uid://dv36djtg8a2de::::res://3x3pixel/3x3pixel.ttf<>uid://bs6nh8tic4s4u::::res://tile_map.tscn<>uid://tqxk101446v::::res://assets/ui/enter-prompt.png<>uid://daywsgla5ottt::::res://player.tscn<>uid://bo10mg1e51e2i::::res://player_camera.tscn
+player.gd::GDScript::-1::1691826344::0::1::::Player<>CharacterBody2D<>::
+player.tscn::PackedScene::7210175367481500533::1692065738::0::1::::<><>::res://player.gd<>uid://br4k1j5j6u0cb::::res://assets/character-dash-spritesheet.png<>uid://bgtcrmif3wdq0::::res://assets/character-anim-death-spritesheet.png<>uid://hw73vhusf7j6::::res://assets/character-idle.png<>uid://dobx3lk3xft46::::res://assets/character-neutral-jump-spritesheet.png<>uid://dndkg52f6irhv::::res://assets/character-run-spritesheet.png<>uid://b4d6hnn203yo1::::res://assets/audio/Retro FootStep 03.wav<>uid://cojjdev25jaal::::res://assets/audio/Retro Swooosh 07.wav<>uid://ddn2f2djano0l::::res://assets/audio/Retro Swooosh 02.wav<>uid://dnq71kay3uvah::::res://assets/audio/Retro Explosion Short 01.wav<>uid://da7ywrvks2ufi::::res://assets/audio/Retro Blip 07.wav
+player_camera.gd::GDScript::-1::1691351222::0::1::::PlayerCamera<>Camera2D<>::
+player_camera.tscn::PackedScene::3424278026105003870::1691823990::0::1::::<><>::res://player_camera.gd<>res://the_world.gdshader
+Retro Event 49.wav::AudioStreamWAV::7416787471038308249::1692059185::1692059185::1::::<><>::
+sawblade.gd::GDScript::-1::1692059842::0::1::::<>Hazard<>::
+sawblade.tscn::PackedScene::2036445596862212424::1692065738::0::1::::<><>::res://sawblade.gd<>uid://dlhxlm1kumbw5::::res://assets/spinning-saw.png<>uid://dsh5ksf3ygyje::::res://assets/audio/Retro Swooosh 16.wav
+saw_wall_trigger.gd::GDScript::-1::1692056407::0::1::::<>Area2D<>::
+the_world.gdshader::Shader::-1::1692066512::0::1::::<><>::
+the_world.tscn::PackedScene::3682772184763260473::1692065738::0::1::::<><>::uid://bs6nh8tic4s4u::::res://tile_map.tscn<>uid://daywsgla5ottt::::res://player.tscn<>uid://bo10mg1e51e2i::::res://player_camera.tscn<>res://saw_wall_trigger.gd<>uid://4ap7xo51ry85::::res://sawblade.tscn<>uid://cumbej176sax0::::res://hazard.tscn<>uid://kpnhkekuhwau::::res://hazard_laser.tscn<>uid://drv2yiydg213p::::res://bounce_pad.tscn<>uid://csmwylu5rmmjo::::res://elevator_path_follow.tscn<>uid://bnqg5mnex87tn::::res://checkpoint.tscn<>uid://dk5bwr7uqpkgk::::res://key.tscn<>uid://puvusjyeeena::::res://gate.tscn<>res://elevator.gd<>uid://c356go8784mwe::::res://gate_switch.tscn<>uid://dxne4j6cstsvk::::res://key_switch.tscn<>uid://dlpl2uy6c783v::::res://elevator_path.tscn<>uid://8y2cpx6ntqcq::::res://elevator_switch.tscn<>uid://bocgjhmsb71s1::::res://assets/ui/ui-background.png<>uid://70r8wx0fbsw4::::res://coin.tscn<>res://ui.gd<>uid://32vk23llohr3::::res://assets/ui/progress-bar-under.png<>uid://icdega1kv3t::::res://assets/ui/progress-bar-fill.png<>uid://2bgk1fxrihb1::::res://coin_challenge_sign.tscn<>uid://cv24vjlw568c8::::res://key_challenge_sign.tscn<>res://goal.gd<>uid://pdhcoxsawa12::::res://assets/big-star.png<>uid://eshucdjkhfhx::::res://assets/ui/ui-key.png<>uid://c2hdrjmx0j47g::::res://assets/audio/Retro Ambience 02.wav<>uid://ufxai3s82iau::::res://assets/audio/1. Into The Spaceship.wav
+tile_map.tscn::PackedScene::3714619164005991678::1691823036::0::1::::<><>::uid://bfp3jql7d1tra
+ui.gd::GDScript::-1::1691806467::0::1::::<>CanvasLayer<>::
+you_win.gd::GDScript::-1::1692059105::0::1::::<>Node2D<>::
+you_win.tscn::PackedScene::8571198888072813250::1692065738::0::1::::<><>::uid://dtjx0csuu7enb::::res://assets/ui/menu-background-1-one-pane.png<>res://you_win.gd<>uid://btchfu08pe1b2::::res://assets/ui/rank_spritesheet.png<>uid://d16vogghinpnu::::res://assets/audio/Retro Event 49.wav
+::res://3x3pixel/::1691822901
+3x3pixel.ttf::FontFile::8692918431127310182::1691821901::1691822731::1::::<><>::
+cover.png::CompressedTexture2D::49694949433953216::1691821901::1691821953::1::::<><>::
+IttyBitty.ttf::FontFile::6056219212600362990::1691822826::1691822901::1::::<><>::
+::res://assets/::1692058076
+big-star.png::CompressedTexture2D::1059455150045946943::1692058074::1692058076::1::::<><>::
+character-anim-death-spritesheet.png::CompressedTexture2D::2846929358234447573::1691352350::1691352401::1::::<><>::
+character-anim-respawn-spritesheet.png::CompressedTexture2D::4727088779906995186::1691352387::1691352401::1::::<><>::
+character-dash-spritesheet.png::CompressedTexture2D::3640152100482021081::1691276911::1691276919::1::::<><>::
+character-idle.png::CompressedTexture2D::538732276790386009::1691009185::1691009218::1::::<><>::
+character-neutral-jump-spritesheet.png::CompressedTexture2D::8145417327336824925::1691273866::1691273886::1::::<><>::
+character-run-spritesheet.png::CompressedTexture2D::8078529654006158935::1691009778::1691009796::1::::<><>::
+character-static.png::CompressedTexture2D::5071519036610487382::1691007708::1691007746::1::::<><>::
+checkpoint-flag.png::CompressedTexture2D::1806113959481309813::1691618586::1691618588::1::::<><>::
+coin-challenge-signs.png::CompressedTexture2D::2491809933621766758::1691821305::1691821307::1::::<><>::
+coin-collect.png::CompressedTexture2D::1020346440605635455::1691720233::1691720235::1::::<><>::
+coin.png::CompressedTexture2D::7140579360485385082::1691706273::1691707751::1::::<><>::
+elevator-platform.png::CompressedTexture2D::838709044240723034::1691620284::1691620294::1::::<><>::
+elevator-switch.png::CompressedTexture2D::1649827173439168663::1691620293::1691620294::1::::<><>::
+elevator-track.png::CompressedTexture2D::7186054514099227907::1691620396::1691620558::1::::<><>::
+gate.png::CompressedTexture2D::7111440457022658412::1691717381::1691717382::1::::<><>::
+hazard-spikes.png::CompressedTexture2D::9001568599146781331::1691350860::1691350888::1::::<><>::
+jump-pad-spritesheet.png::CompressedTexture2D::6885915580717672645::1691012683::1691613568::1::::<><>::
+key-challenge-signs.png::CompressedTexture2D::998731210275604244::1691989562::1691989563::1::::<><>::
+key-switch.png::CompressedTexture2D::7571154795153165794::1691719201::1691719205::1::::<><>::
+laser-emittter.png::CompressedTexture2D::2555143440179828510::1691354968::1691354981::1::::<><>::
+laser-extension.png::CompressedTexture2D::2197688372495418550::1691358848::1691358860::1::::<><>::
+laser-impact.png::CompressedTexture2D::5689693942622633285::1691355435::1691355561::1::::<><>::
+laser-initial-expansion.png::CompressedTexture2D::8240090878275129805::1691360415::1691360443::1::::<><>::
+laser-splash.png::CompressedTexture2D::6070355722209166747::1691355547::1691355561::1::::<><>::
+spinning-saw.png::CompressedTexture2D::7947206780869331438::1691786985::1691786987::1::::<><>::
+switch.png::CompressedTexture2D::89709834939060736::1691717735::1691717736::1::::<><>::
+tileset-1.png::CompressedTexture2D::2770047574962202574::1691622548::1691622565::1::::<><>::
+::res://assets/audio/::1692060267
+1. Into The Spaceship.wav::AudioStreamWAV::1415495716668907228::1691719334::1691724630::1::::<><>::
+Retro Ambience 02.wav::AudioStreamWAV::6682603791692793330::1691719566::1691722006::1::::<><>::
+Retro Blip 07.wav::AudioStreamWAV::7226819560318856826::1691719565::1691721728::1::::<><>::
+Retro Event 49.wav::AudioStreamWAV::9049468078744957266::1691719567::1692059221::1::::<><>::
+Retro Event Acute 11.wav::AudioStreamWAV::6968709017208813732::1691719567::1691722238::1::::<><>::
+Retro Event StereoUP 02.wav::AudioStreamWAV::3197732759768847808::1691719567::1692060054::1::::<><>::
+Retro Event UI 15.wav::AudioStreamWAV::4032004191641935419::1691719568::1692060267::1::::<><>::
+Retro Explosion Short 01.wav::AudioStreamWAV::8106736963210914107::1691719568::1691721593::1::::<><>::
+Retro FootStep 03.wav::AudioStreamWAV::4429985713938617062::1691719568::1691720659::1::::<><>::
+Retro Jump Simple A 01.wav::AudioStreamWAV::5287344386549997666::1691719566::1691719650::1::::<><>::
+Retro PickUp Coin 07.wav::AudioStreamWAV::1442946875518917322::1691719569::1691719831::1::::<><>::
+Retro Swooosh 02.wav::AudioStreamWAV::7398315203744710365::1691719569::1691721439::1::::<><>::
+Retro Swooosh 07.wav::AudioStreamWAV::5774616632223299923::1691719569::1691721002::1::::<><>::
+Retro Swooosh 16.wav::AudioStreamWAV::8438952203013199878::1691719569::1692059526::1::::<><>::
+Retro Weapon Laser 36.wav::AudioStreamWAV::1820906292172169581::1691719570::1691729027::1::::<><>::
+::res://assets/ui/::1692058674
+enter-prompt.png::CompressedTexture2D::40236289041432783::1691823252::1691823262::1::::<><>::
+menu-background-1-one-pane.png::CompressedTexture2D::8512870749459585291::1691821774::1691821953::1::::<><>::
+menu-background-1-two-panes.png::CompressedTexture2D::6698476618485380062::1691821782::1691821953::1::::<><>::
+progress-bar-fill.png::CompressedTexture2D::16642032797115919::1691714800::1691714801::1::::<><>::
+progress-bar-under.png::CompressedTexture2D::2022320197911691258::1691714761::1691714762::1::::<><>::
+rank_spritesheet.png::CompressedTexture2D::3724572506849440277::1692058673::1692058674::1::::<><>::
+ui-background.png::CompressedTexture2D::3373574011256983222::1691790379::1691790380::1::::<><>::
+ui-key.png::CompressedTexture2D::318375019056345553::1691991162::1691716574::1::::<><>::
+::res://html/::1692065582
+index.apple-touch-icon.png::CompressedTexture2D::6287662311299477347::1692065582::1691824886::1::::<><>::
+index.icon.png::CompressedTexture2D::868929262341069002::1692065582::1691824886::1::::<><>::
+index.png::CompressedTexture2D::1903068664265143250::1692065582::1691824886::1::::<><>::
+LOWRESJAM2023.apple-touch-icon.png::CompressedTexture2D::4893782629246740672::1691819456::1691819542::1::::<><>::
+LOWRESJAM2023.icon.png::CompressedTexture2D::2011636321340699702::1691819456::1691819542::1::::<><>::
+LOWRESJAM2023.png::CompressedTexture2D::4623683657243503974::1691819456::1691819542::1::::<><>::
