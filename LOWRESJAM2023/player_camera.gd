@@ -13,18 +13,18 @@ func _ready():
 func _process(delta):
 	var player_position = player.position	
 	if (
-		int(player_position.x / 64) != int(position.x / 64) or int(player_position.y / 64) != int(position.y / 64)
+		int(player_position.x / 128) != int(position.x / 128) or int(player_position.y / 128) != int(position.y / 64)
 	):
-		position.x = int(player_position.x / 64) * 64
-		position.y = int(player_position.y / 64) * 64
+		position.x = int(player_position.x / 128) * 128
+		position.y = int(player_position.y / 128) * 128
 		EventManager.emit_signal("room_changed")
 
 
 func is_on_screen(location: Vector2):
 	var left_bound = position.x
-	var right_bound = position.x + 64
+	var right_bound = position.x + 128
 	var upper_bound = position.y
-	var lower_bound = position.y + 64
+	var lower_bound = position.y + 128
 	
 	if location.x >= left_bound and location.x <= right_bound:
 		if location.y >= upper_bound and location.y <= lower_bound:
