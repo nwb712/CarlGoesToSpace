@@ -1,5 +1,13 @@
-res://objects/interactable/pickups/coin/coin.tscn
-res://ui/the_world.gdshader
-res://objects/interactable/pickups/coin/coin.gd
 res://global/the_world.tscn
+res://ui/the_world.gdshader
+res://global/game_manager.gd
+res://levels/level_index.gd
+res://levels/test_level.tscn
 res://objects/actors/player/player.tscn
+res://objects/interactable/pickups/coin/coin.tscn
+res://global/event_manager.gd
+res://objects/actors/player/player.gd
+res://objects/interactable/checkpoint/checkpoint.gd
+res://ui/player_camera.gd
+res://ui/ui.gd
+res://levels/tutorial_menu_old/menu.gd

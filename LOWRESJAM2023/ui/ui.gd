@@ -1,12 +1,13 @@
 extends CanvasLayer
 
-
+var coins = 0
+var keys = 0
 var progress_bar
 var key_container
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	GameManager.ui = self
+	# game_manager.ui = self
 	progress_bar = $Control/TextureProgressBar
 	key_container = $Control/KeyContainer
 
@@ -17,11 +18,10 @@ func _process(delta):
 
 
 func update_coins():
-	progress_bar.value = GameManager.coins % int(progress_bar.max_value)
+	progress_bar.value = coins % int(progress_bar.max_value)
 
 
 func update_keys():
-	var keys = GameManager.keys
 	if keys == 0:
 		key_container.get_node("Key1").visible = false
 		key_container.get_node("Key2").visible = false

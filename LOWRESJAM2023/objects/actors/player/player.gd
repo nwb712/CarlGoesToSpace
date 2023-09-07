@@ -28,9 +28,11 @@ var idle_timer = 0.0
 var dash_timer = 0.0
 var run_sound_timer = 0.0
 
+var respawn_pos = Vector2()
+
 func _ready():
-	GameManager.player = self
-	GameManager.respawn_pos = self.position
+	EventManager.emit_signal("player_spawned", self)
+	respawn_pos = self.position
 
 
 # Switch to a new state-
@@ -291,7 +293,7 @@ func _on_animated_sprite_2d_animation_finished():
 	if anim.animation == "death":
 		if anim.frame == 10:
 			self.visible = false
-			respawn(GameManager.respawn_pos)
+			respawn(respawn_pos)
 		else:
 			can_input = true
 			can_move = true

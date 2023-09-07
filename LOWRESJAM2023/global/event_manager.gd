@@ -1,5 +1,9 @@
 extends Node2D
 
+signal player_spawned(plyr: Player)
+
+signal change_level(path: String)
+
 signal damaged()
 
 signal coin_collected()
