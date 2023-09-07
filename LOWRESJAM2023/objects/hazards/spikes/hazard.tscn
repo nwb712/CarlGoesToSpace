@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://cumbej176sax0"]
+
+[ext_resource type="Script" path="res://objects/hazards/spikes/hazard.gd" id="1_tdvyh"]
+[ext_resource type="Texture2D" uid="uid://d1iorw0ugm3e2" path="res://objects/hazards/spikes/hazard-spikes.png" id="2_xahlw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hpvqw"]
+size = Vector2(12, 4)
+
+[node name="Hazard" type="Area2D"]
+texture_filter = 1
+script = ExtResource("1_tdvyh")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(8, 4)
+texture = ExtResource("2_xahlw")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(8, 6)
+shape = SubResource("RectangleShape2D_hpvqw")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

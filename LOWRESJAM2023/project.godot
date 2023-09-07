@@ -11,21 +11,21 @@ config_version=5
 [application]
 
 config/name="LOWRESJAM2023"
-run/main_scene="res://menu.tscn"
+run/main_scene="res://levels/tutorial_menu_old/menu.tscn"
 config/features=PackedStringArray("4.1", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]
 
-EventManager="*res://event_manager.gd"
-GameManager="*res://game_manager.gd"
+EventManager="*res://global/event_manager.gd"
+GameManager="*res://global/game_manager.gd"
 
 [display]
 
-window/size/viewport_width=128
+window/size/viewport_width=256
 window/size/viewport_height=128
-window/size/window_width_override=1024
-window/size/window_height_override=1024
+window/size/window_width_override=1920
+window/size/window_height_override=1080
 window/stretch/mode="viewport"
 
 [gui]

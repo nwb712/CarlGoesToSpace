@@ -1,4 +1,5 @@
-res://tile_map.tscn
-res://the_world.gdshader
-res://the_world.tscn
-res://player_camera.gd
+res://objects/interactable/pickups/coin/coin.tscn
+res://ui/the_world.gdshader
+res://objects/interactable/pickups/coin/coin.gd
+res://global/the_world.tscn
+res://objects/actors/player/player.tscn

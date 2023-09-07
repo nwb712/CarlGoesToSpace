@@ -1,0 +1,68 @@
+[gd_scene load_steps=8 format=3 uid="uid://csmwylu5rmmjo"]
+
+[ext_resource type="Texture2D" uid="uid://l7joehy88igw" path="res://objects/interactable/elevator/elevator-platform.png" id="1_2x28m"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wcojn"]
+atlas = ExtResource("1_2x28m")
+region = Rect2(0, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kfufn"]
+atlas = ExtResource("1_2x28m")
+region = Rect2(8, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kytcn"]
+atlas = ExtResource("1_2x28m")
+region = Rect2(16, 0, 8, 8)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xjxxv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wcojn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kfufn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kytcn")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_t8x24"]
+size = Vector2(8, 2)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8oa08"]
+size = Vector2(4, 2)
+
+[node name="ElevatorPathFollow" type="PathFollow2D"]
+rotation = -1.5708
+rotates = false
+
+[node name="ElevatorPlatform" type="CharacterBody2D" parent="."]
+texture_filter = 1
+rotation = 1.5708
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="ElevatorPlatform"]
+position = Vector2(4, 4)
+sprite_frames = SubResource("SpriteFrames_xjxxv")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ElevatorPlatform"]
+position = Vector2(4, 6)
+shape = SubResource("RectangleShape2D_t8x24")
+
+[node name="ElevatorDetector" type="Area2D" parent="ElevatorPlatform"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ElevatorPlatform/ElevatorDetector"]
+position = Vector2(4, 4)
+shape = SubResource("RectangleShape2D_8oa08")
+
+[node name="_Timer_98337" type="Timer" parent="."]
+wait_time = 0.2
+one_shot = true
+
+[node name="_Timer_19746" type="Timer" parent="."]
+wait_time = 0.2
+one_shot = true
